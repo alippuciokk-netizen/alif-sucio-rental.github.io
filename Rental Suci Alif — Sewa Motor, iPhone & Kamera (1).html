@@ -1,0 +1,2435 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3000/ -->
+<html lang="id"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rental Suci Alif — Sewa Motor, iPhone &amp; Kamera</title>
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+<link href="./Rental Suci Alif — Sewa Motor, iPhone &amp; Kamera_files/css2" rel="stylesheet">
+<style>
+  :root {
+    color-scheme: light;
+    --brand: #e11d6e;
+    --brand-hover: #c7135e;
+    --brand-light: #fff0f6;
+    --brand-border: #ffd1e4;
+    --brand-dark: #8b0e45;
+    --slate-900: #0f172a;
+    --slate-800: #1e293b;
+    --slate-700: #334155;
+    --slate-600: #475569;
+    --slate-500: #64748b;
+    --slate-400: #94a3b8;
+    --slate-200: #e2e8f0;
+    --slate-100: #f1f5f9;
+    --slate-50:  #f8fafc;
+    --card: #ffffff;
+    --success: #10b981;
+    --success-light: #ecfdf5;
+    --success-border: #a7f3d0;
+    --warning: #f59e0b;
+    --warning-light: #fffbeb;
+    --warning-border: #fde68a;
+    --danger: #ef4444;
+    --radius-sm: 8px;
+    --radius-md: 14px;
+    --radius-lg: 20px;
+    --radius-full: 9999px;
+    --shadow-subtle: 0 1px 3px rgba(15, 23, 42, 0.05);
+    --shadow-card: 0 4px 16px -2px rgba(15, 23, 42, 0.06), 0 2px 6px -1px rgba(15, 23, 42, 0.03);
+    --shadow-hover: 0 20px 35px -8px rgba(225, 29, 110, 0.16), 0 8px 16px -4px rgba(15, 23, 42, 0.04);
+    --shadow-modal: 0 25px 60px -15px rgba(15, 23, 42, 0.35);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    color: var(--slate-800);
+    background-color: var(--slate-50);
+    background-image:
+      radial-gradient(1200px 500px at 50% -80px, #ffe4ee 0%, rgba(248, 250, 252, 0) 80%),
+      radial-gradient(800px 400px at 90% 40%, #fff0f6 0%, rgba(248, 250, 252, 0) 60%);
+    background-attachment: fixed;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+    line-height: 1.5;
+  }
+
+  .wrap { max-width: 1140px; margin: 0 auto; padding: 0 20px; }
+
+  /* ---------- Top Announcement / Contact Bar ---------- */
+  .top-notice {
+    background: #18141d;
+    color: #e2e8f0;
+    font-size: 12.5px;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  }
+  .top-notice .wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .top-notice-left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .notice-item { display: inline-flex; align-items: center; gap: 6px; }
+  .notice-item span { color: #f472b6; }
+  .top-notice a {
+    color: #ffd1e4;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.15s;
+  }
+  .top-notice a:hover { color: #ffffff; }
+
+  /* ---------- Header & Navbar ---------- */
+  header.site-header {
+    background: linear-gradient(135deg, #bd115b 0%, #e11d6e 45%, #9d0c4d 100%);
+    color: #ffffff;
+    box-shadow: 0 10px 30px rgba(189, 17, 91, 0.2);
+    position: relative;
+    overflow: hidden;
+  }
+  header.site-header::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.04' fill-rule='evenodd'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/svg%3E");
+    pointer-events: none;
+  }
+
+  .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0 20px;
+    gap: 20px;
+    position: relative;
+    z-index: 2;
+  }
+  .brand-group {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .brand-logo-wrap {
+    position: relative;
+    flex-shrink: 0;
+  }
+  .brand-logo-img {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid rgba(255, 255, 255, 0.95);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.22);
+    background: #ffffff;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+  .brand-logo-img:hover { transform: scale(1.06) rotate(2deg); }
+  .verified-badge {
+    position: absolute;
+    bottom: -2px;
+    right: -2px;
+    background: #10b981;
+    color: #ffffff;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 11px;
+    font-weight: 800;
+    border: 2px solid #ffffff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  }
+
+  .brand-info h1 {
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  }
+  .brand-sub {
+    font-size: 13.5px;
+    color: rgba(255, 255, 255, 0.92);
+    margin-top: 3px;
+    font-weight: 500;
+  }
+  .brand-tags {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 6px;
+    flex-wrap: wrap;
+    font-size: 11.5px;
+  }
+  .pill-tag {
+    background: rgba(255, 255, 255, 0.18);
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    padding: 3px 9px;
+    border-radius: var(--radius-full);
+    backdrop-filter: blur(4px);
+    font-weight: 600;
+  }
+  .pill-tag.loc { background: rgba(0,0,0,0.22); color: #fff; }
+
+  .header-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+  }
+  .btn-header-wa {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #25d366;
+    color: #073b21;
+    padding: 10px 18px;
+    border-radius: var(--radius-md);
+    font-size: 13.5px;
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: 0 6px 18px rgba(37, 211, 102, 0.35);
+    transition: transform 0.18s, filter 0.18s;
+  }
+  .btn-header-wa:hover {
+    transform: translateY(-2px);
+    filter: brightness(1.05);
+  }
+  .btn-header-admin {
+    background: rgba(255, 255, 255, 0.18);
+    color: #ffffff;
+    border: 1.5px solid rgba(255, 255, 255, 0.4);
+    padding: 9.5px 16px;
+    border-radius: var(--radius-md);
+    font-size: 13.5px;
+    font-weight: 700;
+    cursor: pointer;
+    backdrop-filter: blur(6px);
+    transition: all 0.2s;
+  }
+  .btn-header-admin:hover {
+    background: #ffffff;
+    color: var(--brand-dark);
+    border-color: #ffffff;
+    transform: translateY(-2px);
+  }
+
+  /* ---------- Hero Banner & Stats ---------- */
+  .hero-panel {
+    padding: 24px 0 34px;
+    position: relative;
+    z-index: 2;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+  }
+  .hero-grid {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    gap: 28px;
+    align-items: center;
+  }
+  .hero-text h2 {
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    margin-bottom: 10px;
+  }
+  .hero-text p {
+    font-size: 14.5px;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.6;
+    max-width: 520px;
+  }
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+  .stat-card {
+    background: rgba(255, 255, 255, 0.16);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: var(--radius-md);
+    padding: 14px 18px;
+    backdrop-filter: blur(8px);
+    transition: transform 0.2s, background 0.2s;
+  }
+  .stat-card:hover {
+    transform: translateY(-3px);
+    background: rgba(255, 255, 255, 0.22);
+  }
+  .stat-card .val {
+    font-size: 26px;
+    font-weight: 800;
+    display: block;
+    line-height: 1.1;
+    font-variant-numeric: tabular-nums;
+  }
+  .stat-card .lbl {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.88);
+    font-weight: 600;
+    margin-top: 4px;
+    display: block;
+  }
+
+  /* ---------- Features Value Props Strip ---------- */
+  .features-strip {
+    background: #ffffff;
+    border-bottom: 1px solid var(--slate-200);
+    box-shadow: 0 4px 14px rgba(15, 23, 42, 0.04);
+  }
+  .features-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    padding: 18px 0;
+  }
+  .feature-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .feature-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    background: var(--brand-light);
+    color: var(--brand);
+    display: grid;
+    place-items: center;
+    font-size: 19px;
+    flex-shrink: 0;
+    border: 1px solid var(--brand-border);
+  }
+  .feature-text b {
+    display: block;
+    font-size: 13.5px;
+    font-weight: 700;
+    color: var(--slate-800);
+  }
+  .feature-text span {
+    font-size: 12px;
+    color: var(--slate-500);
+  }
+
+  /* ---------- Toolbar & Filters ---------- */
+  .toolbar-section {
+    padding: 30px 0 16px;
+  }
+  .toolbar-card {
+    background: #ffffff;
+    border: 1px solid var(--slate-200);
+    border-radius: var(--radius-lg);
+    padding: 14px 18px;
+    box-shadow: var(--shadow-card);
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .search-wrap {
+    flex: 1 1 280px;
+    position: relative;
+  }
+  .search-wrap svg {
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--slate-400);
+  }
+  .search-wrap input {
+    width: 100%;
+    padding: 11px 14px 11px 40px;
+    border: 1.5px solid var(--slate-200);
+    border-radius: var(--radius-md);
+    font-size: 14px;
+    background: var(--slate-50);
+    color: var(--slate-800);
+    font-family: inherit;
+    outline: none;
+    transition: all 0.2s;
+  }
+  .search-wrap input:focus {
+    border-color: var(--brand);
+    background: #ffffff;
+    box-shadow: 0 0 0 4px rgba(225, 29, 110, 0.12);
+  }
+  .search-wrap input::placeholder { color: var(--slate-400); }
+
+  .filter-tabs {
+    display: flex;
+    gap: 6px;
+    background: var(--slate-100);
+    padding: 4px;
+    border-radius: var(--radius-md);
+    flex-wrap: wrap;
+  }
+  .filter-btn {
+    border: 0;
+    background: transparent;
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--slate-600);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.18s ease;
+    font-family: inherit;
+  }
+  .filter-btn:hover:not(.active) {
+    color: var(--brand);
+    background: rgba(225, 29, 110, 0.08);
+  }
+  .filter-btn.active {
+    background: #ffffff;
+    color: var(--brand);
+    box-shadow: 0 2px 8px rgba(15, 23, 42, 0.08);
+  }
+
+  .sort-wrap select {
+    padding: 10px 14px;
+    border: 1.5px solid var(--slate-200);
+    border-radius: var(--radius-md);
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--slate-700);
+    background: var(--slate-50);
+    cursor: pointer;
+    outline: none;
+    font-family: inherit;
+    transition: all 0.2s;
+  }
+  .sort-wrap select:focus {
+    border-color: var(--brand);
+    box-shadow: 0 0 0 3px rgba(225, 29, 110, 0.12);
+  }
+
+  /* ---------- Unit Cards Grid ---------- */
+  .grid-section { padding-bottom: 60px; }
+  .unit-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
+    gap: 22px;
+    margin-top: 20px;
+  }
+
+  .unit-card {
+    background: #ffffff;
+    border: 1px solid var(--slate-200);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: var(--shadow-card);
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+    position: relative;
+    cursor: pointer;
+  }
+  .unit-card:hover {
+    transform: translateY(-6px);
+    box-shadow: var(--shadow-hover);
+    border-color: var(--brand-border);
+  }
+
+  .unit-thumb {
+    height: 160px;
+    background: linear-gradient(145deg, #fff0f6 0%, #fce7f3 100%);
+    display: grid;
+    place-items: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .unit-thumb.iphone {
+    background: linear-gradient(145deg, #f1f5f9 0%, #e2e8f0 100%);
+  }
+  .unit-thumb.kamera {
+    background: linear-gradient(145deg, #fef3c7 0%, #fee2e2 100%);
+  }
+  .unit-thumb .emoji-hero {
+    font-size: 64px;
+    filter: drop-shadow(0 10px 14px rgba(15, 23, 42, 0.12));
+    transition: transform 0.3s ease;
+  }
+  .unit-card:hover .emoji-hero { transform: scale(1.08); }
+  .unit-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .badge-status {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    z-index: 2;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: var(--radius-full);
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    box-shadow: 0 2px 6px rgba(15, 23, 42, 0.1);
+  }
+  .badge-status.ready {
+    background: var(--success-light);
+    color: #065f46;
+    border: 1px solid var(--success-border);
+  }
+  .badge-status.ready::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #10b981;
+  }
+  .badge-status.rented {
+    background: var(--warning-light);
+    color: #92400e;
+    border: 1px solid var(--warning-border);
+  }
+  .badge-status.rented::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #f59e0b;
+  }
+
+  .unit-category-pill {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: rgba(255, 255, 255, 0.92);
+    color: var(--slate-700);
+    font-size: 10.5px;
+    font-weight: 700;
+    padding: 3px 8px;
+    border-radius: var(--radius-full);
+    border: 1px solid var(--slate-200);
+    backdrop-filter: blur(4px);
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+  }
+
+  .unit-content {
+    padding: 16px 18px 18px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 8px;
+  }
+  .unit-title {
+    font-size: 16px;
+    font-weight: 800;
+    color: var(--slate-900);
+    line-height: 1.3;
+    transition: color 0.2s;
+  }
+  .unit-card:hover .unit-title { color: var(--brand); }
+
+  .unit-spec-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 2px;
+  }
+  .spec-chip {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--slate-600);
+    background: var(--slate-100);
+    border-radius: 6px;
+    padding: 3px 8px;
+  }
+
+  .unit-footer {
+    margin-top: auto;
+    padding-top: 14px;
+    border-top: 1px solid var(--slate-100);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .price-box span {
+    font-size: 11px;
+    color: var(--slate-400);
+    display: block;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+  }
+  .price-box b {
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--brand);
+    line-height: 1.1;
+  }
+  .price-box small {
+    font-size: 12px;
+    color: var(--slate-500);
+    font-weight: 500;
+  }
+  .btn-rent-card {
+    background: var(--brand-light);
+    color: var(--brand);
+    border: 1px solid var(--brand-border);
+    padding: 8px 13px;
+    border-radius: 10px;
+    font-size: 12.5px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.18s;
+  }
+  .unit-card:hover .btn-rent-card {
+    background: var(--brand);
+    color: #ffffff;
+    border-color: var(--brand);
+  }
+
+  /* Empty state */
+  .empty-state {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 60px 20px;
+    background: #ffffff;
+    border: 2px dashed var(--slate-200);
+    border-radius: var(--radius-lg);
+    color: var(--slate-500);
+  }
+  .empty-state .ico { font-size: 42px; margin-bottom: 10px; display: block; }
+
+  /* ---------- Floating FAB Add Unit ---------- */
+  .fab-add {
+    position: fixed;
+    right: 22px;
+    bottom: 22px;
+    z-index: 40;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 13px 22px;
+    border: 0;
+    border-radius: var(--radius-full);
+    background: linear-gradient(135deg, #e11d6e, #be1259);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: 0 10px 28px rgba(225, 29, 110, 0.4);
+    transition: transform 0.2s, box-shadow 0.2s, filter 0.2s;
+    font-family: inherit;
+  }
+  .fab-add:hover {
+    transform: translateY(-3px) scale(1.02);
+    filter: brightness(1.08);
+    box-shadow: 0 14px 34px rgba(225, 29, 110, 0.5);
+  }
+  .fab-add:active { transform: scale(0.96); }
+
+  /* ---------- Modals ---------- */
+  .modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(15, 23, 42, 0.65);
+    backdrop-filter: blur(6px);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    z-index: 100;
+  }
+  .modal-overlay.show { display: flex; animation: fadeIn 0.2s ease both; }
+  @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+  .modal-box {
+    background: #ffffff;
+    border-radius: var(--radius-lg);
+    width: 100%;
+    max-width: 480px;
+    max-height: 90vh;
+    overflow-y: auto;
+    border: 1px solid var(--slate-200);
+    box-shadow: var(--shadow-modal);
+    animation: zoomUp 0.25s cubic-bezier(0.16, 1, 0.3, 1) both;
+    position: relative;
+  }
+  @keyframes zoomUp {
+    from { opacity: 0; transform: translateY(20px) scale(0.96); }
+    to   { opacity: 1; transform: translateY(0) scale(1); }
+  }
+  .modal-box.wide { max-width: 540px; }
+  .modal-box.narrow { max-width: 390px; }
+
+  .modal-header-thumb {
+    height: 180px;
+    background: linear-gradient(135deg, #fff0f6, #fce7f3);
+    display: grid;
+    place-items: center;
+    font-size: 76px;
+    position: relative;
+  }
+  .modal-header-thumb img { width: 100%; height: 100%; object-fit: cover; }
+  .modal-close-btn {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    background: rgba(15, 23, 42, 0.6);
+    color: #ffffff;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
+    font-size: 16px;
+    display: grid;
+    place-items: center;
+    transition: background 0.2s;
+    z-index: 5;
+  }
+  .modal-close-btn:hover { background: rgba(15, 23, 42, 0.85); }
+
+  .modal-body { padding: 22px 24px; }
+  .modal-body h2 {
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--slate-900);
+    line-height: 1.3;
+  }
+  .modal-body .meta-sub {
+    font-size: 13px;
+    color: var(--slate-500);
+    margin-bottom: 16px;
+  }
+
+  .spec-grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+  .spec-cell {
+    background: var(--slate-50);
+    border: 1px solid var(--slate-200);
+    border-radius: var(--radius-md);
+    padding: 10px 14px;
+  }
+  .spec-cell span {
+    font-size: 11px;
+    color: var(--slate-400);
+    text-transform: uppercase;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 2px;
+  }
+  .spec-cell b {
+    font-size: 14px;
+    color: var(--slate-800);
+  }
+
+  .desc-box {
+    font-size: 13.5px;
+    color: var(--slate-600);
+    line-height: 1.6;
+    background: #ffffff;
+    border: 1px solid var(--slate-100);
+    padding: 12px 14px;
+    border-radius: var(--radius-md);
+    margin-bottom: 20px;
+  }
+
+  .btn-primary {
+    width: 100%;
+    padding: 13px;
+    border: 0;
+    border-radius: var(--radius-md);
+    background: linear-gradient(135deg, #e11d6e, #be1259);
+    color: #ffffff;
+    font-size: 14.5px;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: 0 8px 20px rgba(225, 29, 110, 0.35);
+    transition: all 0.2s;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+  .btn-primary:hover {
+    filter: brightness(1.06);
+    transform: translateY(-2px);
+    box-shadow: 0 12px 26px rgba(225, 29, 110, 0.45);
+  }
+  .btn-secondary {
+    width: 100%;
+    padding: 12px;
+    border: 1.5px solid var(--slate-200);
+    border-radius: var(--radius-md);
+    background: #ffffff;
+    color: var(--slate-600);
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.18s;
+    margin-top: 8px;
+    font-family: inherit;
+  }
+  .btn-secondary:hover {
+    background: var(--slate-50);
+    color: var(--slate-800);
+  }
+
+  /* Form controls */
+  .form-group {
+    display: block;
+    margin-bottom: 14px;
+  }
+  .form-group label {
+    display: block;
+    font-size: 12.5px;
+    font-weight: 700;
+    color: var(--slate-700);
+    margin-bottom: 6px;
+  }
+  .form-group label i { color: var(--brand); font-style: normal; }
+  .form-group input, .form-group select, .form-group textarea {
+    width: 100%;
+    padding: 11px 13px;
+    border: 1.5px solid var(--slate-200);
+    border-radius: var(--radius-md);
+    font-size: 13.5px;
+    font-family: inherit;
+    color: var(--slate-800);
+    background: #ffffff;
+    outline: none;
+    transition: all 0.2s;
+  }
+  .form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+    border-color: var(--brand);
+    box-shadow: 0 0 0 4px rgba(225, 29, 110, 0.12);
+  }
+  .form-group.bad input, .form-group.bad textarea {
+    border-color: var(--danger);
+    background: #fff5f5;
+  }
+
+  .form-row-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .calc-box {
+    background: var(--brand-light);
+    border: 1px dashed var(--brand-border);
+    border-radius: var(--radius-md);
+    padding: 12px 16px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .calc-box .item span {
+    font-size: 11px;
+    color: var(--slate-500);
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .calc-box .item b {
+    font-size: 17px;
+    color: var(--brand);
+    font-weight: 800;
+    display: block;
+  }
+
+  .form-alert {
+    font-size: 13px;
+    padding: 9px 12px;
+    border-radius: var(--radius-sm);
+    margin-bottom: 12px;
+  }
+  .form-alert.danger {
+    background: #fee2e2;
+    color: #991b1b;
+    border: 1px solid #fecaca;
+    animation: shake 0.3s ease;
+  }
+  @keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-4px); }
+    75% { transform: translateX(4px); }
+  }
+
+  /* Admin panel items */
+  .admin-bar-tools {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid var(--slate-200);
+    flex-wrap: wrap;
+  }
+  .admin-list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-height: 250px;
+    overflow-y: auto;
+    padding-right: 4px;
+    margin-bottom: 20px;
+  }
+  .admin-unit-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 12px;
+    background: var(--slate-50);
+    border: 1px solid var(--slate-200);
+    border-radius: var(--radius-md);
+    transition: all 0.18s;
+  }
+  .admin-unit-row:hover {
+    border-color: var(--brand-border);
+    background: #ffffff;
+    box-shadow: 0 4px 10px rgba(15, 23, 42, 0.05);
+  }
+  .admin-unit-row .emoji { font-size: 22px; flex-shrink: 0; }
+  .admin-unit-row .info { flex: 1; min-width: 0; }
+  .admin-unit-row .info b {
+    display: block;
+    font-size: 13.5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .admin-unit-row .info span {
+    font-size: 11.5px;
+    color: var(--slate-500);
+  }
+  .admin-unit-row .actions {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  .chip-action {
+    border: 0;
+    padding: 6px 10px;
+    border-radius: 8px;
+    font-size: 11.5px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.12s;
+    font-family: inherit;
+  }
+  .chip-action:active { transform: scale(0.95); }
+  .chip-action.toggle-ready {
+    background: var(--brand-light);
+    color: var(--brand);
+    border: 1px solid var(--brand-border);
+  }
+  .chip-action.toggle-rented {
+    background: var(--warning-light);
+    color: #b45309;
+    border: 1px solid var(--warning-border);
+  }
+  .chip-action.btn-del {
+    background: #fef2f2;
+    color: #dc2626;
+    border: 1px solid #fee2e2;
+  }
+  .chip-action.btn-photo {
+    background: #eff6ff;
+    color: #2563eb;
+    border: 1px solid #dbeafe;
+  }
+  .chip-action.btn-rmphoto {
+    background: #f1f5f9;
+    color: #64748b;
+    border: 1px solid #e2e8f0;
+  }
+
+  .photo-picker-box {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: var(--slate-50);
+    border: 1.5px dashed var(--slate-300);
+    border-radius: var(--radius-md);
+    padding: 11px 14px;
+    cursor: pointer;
+    font-size: 13px;
+    color: var(--brand);
+    font-weight: 700;
+    margin-bottom: 14px;
+    transition: all 0.2s;
+  }
+  .photo-picker-box:hover {
+    background: var(--brand-light);
+    border-color: var(--brand);
+  }
+  .photo-preview-thumb {
+    width: 52px;
+    height: 52px;
+    border-radius: 8px;
+    object-fit: cover;
+    border: 1px solid var(--brand-border);
+    display: none;
+    flex-shrink: 0;
+  }
+  .photo-preview-thumb.show { display: block; }
+
+  /* ---------- Footer ---------- */
+  footer.site-footer {
+    background: #110e16;
+    color: #cbd5e1;
+    padding: 48px 0 32px;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+  }
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 1fr;
+    gap: 36px;
+    margin-bottom: 36px;
+  }
+  .footer-brand {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+  }
+  .footer-logo {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    background: #ffffff;
+  }
+  .footer-brand h3 {
+    font-size: 18px;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 4px;
+  }
+  .footer-brand p {
+    font-size: 13px;
+    color: #94a3b8;
+    line-height: 1.6;
+  }
+  .footer-col h4 {
+    font-size: 14px;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .footer-col ul {
+    list-style: none;
+    font-size: 13px;
+    color: #94a3b8;
+  }
+  .footer-col ul li {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .footer-bottom {
+    padding-top: 24px;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12.5px;
+    color: #64748b;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 900px) {
+    .features-list { grid-template-columns: repeat(2, 1fr); gap: 14px; }
+    .hero-grid { grid-template-columns: 1fr; gap: 20px; }
+    .footer-grid { grid-template-columns: 1fr; gap: 24px; }
+  }
+  @media (max-width: 600px) {
+    .nav-bar { flex-direction: column; align-items: flex-start; }
+    .header-actions { width: 100%; justify-content: space-between; }
+    .features-list { grid-template-columns: 1fr; }
+    .toolbar-card { flex-direction: column; align-items: stretch; }
+    .filter-tabs { justify-content: center; }
+    .hero-text h2 { font-size: 24px; }
+    .stats-grid { grid-template-columns: 1fr 1fr; }
+    .fab-add span { display: none; }
+    .fab-add { padding: 16px; font-size: 20px; right: 16px; bottom: 16px; }
+  }
+</style>
+</head>
+<body style="">
+
+<!-- Top Quick Notice Bar -->
+<div class="top-notice">
+  <div class="wrap">
+    <div class="top-notice-left">
+      <div class="notice-item"><span>📍</span> <b>Lokasi:</b> Depan Mesjid Agung</div>
+      <div class="notice-item"><span>🕒</span> <b>Jam Buka:</b> 07:00 – 21:00 WITA / Setiap Hari</div>
+      <div class="notice-item"><span>⚡</span> Siap Antar-Jemput Area Kota &amp; Penginapan</div>
+    </div>
+    <div>
+      <a href="https://wa.me/6287748853767" target="_blank" rel="noopener">📲 CS WhatsApp: 0877-4885-3767 →</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header / Navigation Bar -->
+<header class="site-header">
+  <div class="wrap">
+    <div class="nav-bar">
+      <div class="brand-group">
+        <div class="brand-logo-wrap">
+          <img src="./Rental Suci Alif — Sewa Motor, iPhone &amp; Kamera_files/logo.jpg" alt="Logo Rental Suci Alif" class="brand-logo-img">
+          <div class="verified-badge" title="Terverifikasi &amp; Terpercaya">✓</div>
+        </div>
+        <div class="brand-info">
+          <h1>Rental Suci Alif</h1>
+          <p class="brand-sub">Sewa Motor • iPhone • Kamera — Harga Jujur &amp; Unit Terawat</p>
+          <div class="brand-tags">
+            <span class="pill-tag">✨ Resmi &amp; Terpercaya</span>
+            <span class="pill-tag loc">📍 Depan Mesjid Agung</span>
+            <span class="pill-tag">🛵 Free Helm &amp; Jas Hujan</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-actions">
+        <a href="https://wa.me/6287748853767?text=Halo%20Rental%20Suci%20Alif,%20saya%20mau%20tanya%20sewa%20unit" target="_blank" rel="noopener" class="btn-header-wa">
+          <span>💬</span> Chat WhatsApp
+        </a>
+        <button type="button" class="btn-header-admin" id="open-admin">
+          ⚙️ Admin
+        </button>
+      </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero-panel">
+      <div class="hero-grid">
+        <div class="hero-text">
+          <h2>Solusi Sewa Motor, iPhone &amp; Kamera Terbaik</h2>
+          <p>Nikmati perjalanan liburan atau kebutuhan konten Anda dengan unit yang selalu bersih, terawat, dan bergaransi kenyamanan. Proses mudah tanpa ribet.</p>
+        </div>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <span class="val" id="st-total">13</span>
+            <span class="lbl">Total Unit Tersedia</span>
+          </div>
+          <div class="stat-card">
+            <span class="val" id="st-ready">13</span>
+            <span class="lbl">Unit Siap Pakai</span>
+          </div>
+          <div class="stat-card">
+            <span class="val" id="st-motor">6</span>
+            <span class="lbl">Motor Matic &amp; Sport</span>
+          </div>
+          <div class="stat-card">
+            <span class="val" id="st-phone">7</span>
+            <span class="lbl">iPhone &amp; Kamera</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Value Props Strip -->
+<section class="features-strip">
+  <div class="wrap">
+    <div class="features-list">
+      <div class="feature-item">
+        <div class="feature-icon">🛡️</div>
+        <div class="feature-text">
+          <b>Unit Selalu Prima</b>
+          <span>Servis rutin &amp; bersih higienis</span>
+        </div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">🛵</div>
+        <div class="feature-text">
+          <b>Fasilitas Lengkap</b>
+          <span>Free 2 helm SNI + jas hujan</span>
+        </div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">⚡</div>
+        <div class="feature-text">
+          <b>Layanan Antar Jemput</b>
+          <span>Diantar tepat waktu ke lokasi</span>
+        </div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-icon">📍</div>
+        <div class="feature-text">
+          <b>Lokasi Strategis</b>
+          <span>Tepat di Depan Mesjid Agung</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Main Catalog Section -->
+<main class="wrap">
+  <div class="toolbar-section">
+    <div class="toolbar-card">
+      <div class="search-wrap">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg>
+        <input type="text" id="q" placeholder="Cari merk, tipe (Vario, NMAX, iPhone 15, Kamera)…">
+      </div>
+
+      <div class="filter-tabs">
+        <button type="button" class="filter-btn" data-cat="all">Semua Unit</button>
+        <button type="button" class="filter-btn active" data-cat="motor">🏍️ Motor</button>
+        <button type="button" class="filter-btn" data-cat="iphone">📱 iPhone</button>
+        <button type="button" class="filter-btn" data-cat="kamera">📷 Kamera</button>
+      </div>
+
+      <div class="sort-wrap">
+        <select id="sort">
+          <option value="default">Urutkan: Rekomendasi</option>
+          <option value="asc">Harga: Terendah ke Tertinggi</option>
+          <option value="desc">Harga: Tertinggi ke Terendah</option>
+          <option value="name">Nama: A ke Z</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <section class="grid-section">
+    <div class="unit-grid" id="grid">
+      <article class="unit-card" data-id="1">
+        <div class="unit-thumb motor">
+          <span class="badge-status ready">Siap Sewa</span>
+          <span class="unit-category-pill">Motor</span>
+          <span class="emoji-hero">🛵</span>
+        </div>
+        <div class="unit-content">
+          <h3 class="unit-title">Honda Beat 2023</h3>
+          <div class="unit-spec-tags">
+            <span class="spec-chip">110cc</span><span class="spec-chip">Matic</span>
+          </div>
+          <div class="unit-footer">
+            <div class="price-box">
+              <span>Mulai Dari</span>
+              <b>Rp 75.000</b><small> / hari</small>
+            </div>
+            <button type="button" class="btn-rent-card">
+              Sewa →
+            </button>
+          </div>
+        </div>
+      </article>
+    
+      <article class="unit-card" data-id="2">
+        <div class="unit-thumb motor">
+          <span class="badge-status ready">Siap Sewa</span>
+          <span class="unit-category-pill">Motor</span>
+          <span class="emoji-hero">🛵</span>
+        </div>
+        <div class="unit-content">
+          <h3 class="unit-title">Honda Vario 160</h3>
+          <div class="unit-spec-tags">
+            <span class="spec-chip">160cc</span><span class="spec-chip">Matic ESP+</span>
+          </div>
+          <div class="unit-footer">
+            <div class="price-box">
+              <span>Mulai Dari</span>
+              <b>Rp 100.000</b><small> / hari</small>
+            </div>
+            <button type="button" class="btn-rent-card">
+              Sewa →
+            </button>
+          </div>
+        </div>
+      </article>
+    
+      <article class="unit-card" data-id="3">
+        <div class="unit-thumb motor">
+          <span class="badge-status ready">Siap Sewa</span>
+          <span class="unit-category-pill">Motor</span>
+          <span class="emoji-hero">🏍️</span>
+        </div>
+        <div class="unit-content">
+          <h3 class="unit-title">Yamaha NMAX 155</h3>
+          <div class="unit-spec-tags">
+            <span class="spec-chip">155cc</span><span class="spec-chip">Connected ABS</span>
+          </div>
+          <div class="unit-footer">
+            <div class="price-box">
+              <span>Mulai Dari</span>
+              <b>Rp 130.000</b><small> / hari</small>
+            </div>
+            <button type="button" class="btn-rent-card">
+              Sewa →
+            </button>
+          </div>
+        </div>
+      </article>
+    
+      <article class="unit-card" data-id="4">
+        <div class="unit-thumb motor">
+          <span class="badge-status ready">Siap Sewa</span>
+          <span class="unit-category-pill">Motor</span>
+          <span class="emoji-hero">🛵</span>
+        </div>
+        <div class="unit-content">
+          <h3 class="unit-title">Honda Scoopy Stylish</h3>
+          <div class="unit-spec-tags">
+            <span class="spec-chip">110cc</span><span class="spec-chip">Smart Key</span>
+          </div>
+          <div class="unit-footer">
+            <div class="price-box">
+              <span>Mulai Dari</span>
+              <b>Rp 80.000</b><small> / hari</small>
+            </div>
+            <button type="button" class="btn-rent-card">
+              Sewa →
+            </button>
+          </div>
+        </div>
+      </article>
+    
+      <article class="unit-card" data-id="5">
+        <div class="unit-thumb motor">
+          <span class="badge-status ready">Siap Sewa</span>
+          <span class="unit-category-pill">Motor</span>
+          <span class="emoji-hero">🏍️</span>
+        </div>
+        <div class="unit-content">
+          <h3 class="unit-title">Honda PCX 160</h3>
+          <div class="unit-spec-tags">
+            <span class="spec-chip">160cc</span><span class="spec-chip">Keyless</span>
+          </div>
+          <div class="unit-footer">
+            <div class="price-box">
+              <span>Mulai Dari</span>
+              <b>Rp 150.000</b><small> / hari</small>
+            </div>
+            <button type="button" class="btn-rent-card">
+              Sewa →
+            </button>
+          </div>
+        </div>
+      </article>
+    
+      <article class="unit-card" data-id="6">
+        <div class="unit-thumb motor">
+          <span class="badge-status ready">Siap Sewa</span>
+          <span class="unit-category-pill">Motor</span>
+          <span class="emoji-hero">🏍️</span>
+        </div>
+        <div class="unit-content">
+          <h3 class="unit-title">Kawasaki KLX 150</h3>
+          <div class="unit-spec-tags">
+            <span class="spec-chip">150cc</span><span class="spec-chip">Trail Adventure</span>
+          </div>
+          <div class="unit-footer">
+            <div class="price-box">
+              <span>Mulai Dari</span>
+              <b>Rp 160.000</b><small> / hari</small>
+            </div>
+            <button type="button" class="btn-rent-card">
+              Sewa →
+            </button>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+</main>
+
+<!-- Floating FAB Add Unit (Protected) -->
+<button type="button" class="fab-add" id="fab-add" title="Tambah Unit Baru (Khusus Admin)">
+  <span>＋</span> <span>Tambah Unit</span>
+</button>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="./Rental Suci Alif — Sewa Motor, iPhone &amp; Kamera_files/logo.jpg" alt="Logo Suci Alif" class="footer-logo">
+        <div>
+          <h3>Rental Suci Alif</h3>
+          <p>Solusi sewa kendaraan bermotor, iPhone, dan perlengkapan kamera dengan pelayanan ramah, terpercaya, dan amanah.</p>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Kontak &amp; Alamat</h4>
+        <ul>
+          <li>📍 Alamat: Depan Mesjid Agung</li>
+          <li>📱 WhatsApp: 0877-4885-3767</li>
+          <li>⏰ Jam Kerja: 07:00 – 21:00 WITA</li>
+          <li>🚀 Pengantaran: Siap antar area kota</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Ketentuan Sewa</h4>
+        <ul>
+          <li>✓ Wajib e-KTP asli sebagai jaminan</li>
+          <li>✓ SIM C aktif untuk penyewa motor</li>
+          <li>✓ Sudah termasuk 2 helm &amp; jas hujan</li>
+          <li>✓ Kondisi baterai iPhone prima &amp; iCloud clean</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2026 Rental Suci Alif. Seluruh hak cipta dilindungi.</div>
+      <div>Booking cepat via WhatsApp · Unit terawat prima</div>
+    </div>
+  </div>
+</footer>
+
+<input type="file" id="photo-input" accept="image/*" hidden="">
+
+<!-- Modal 1: Login Admin Proteksi -->
+<div class="modal-overlay" id="login-overlay">
+  <div class="modal-box narrow">
+    <div class="modal-body">
+      <div style="text-align: center; margin-bottom: 20px;">
+        <div style="font-size: 42px; margin-bottom: 6px;">🔐</div>
+        <h2>Akses Panel Admin</h2>
+        <p class="meta-sub" style="margin-bottom: 0;">Silakan masukkan akun pengelola untuk mengedit unit</p>
+      </div>
+
+      <form id="login-form" novalidate="" autocomplete="off">
+        <div class="form-group">
+          <label>Username <i>*</i></label>
+          <input type="text" id="l-user" placeholder="Username admin" autocomplete="username">
+        </div>
+        <div class="form-group">
+          <label>Password <i>*</i></label>
+          <div style="position: relative;">
+            <input type="password" id="l-pass" placeholder="Password admin" autocomplete="current-password" style="padding-right: 44px;">
+            <button type="button" id="toggle-pass" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); background: none; border: none; cursor: pointer; font-size: 17px; color: var(--slate-400); padding: 4px;" title="Lihat password">👁️</button>
+          </div>
+        </div>
+        <div class="form-alert danger" id="l-err" hidden=""></div>
+        <button type="submit" class="btn-primary" style="margin-top: 8px;">🔓 Masuk ke Admin</button>
+        <button type="button" class="btn-secondary" id="login-close">Batal</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 2: Panel Admin (Kelola & Tambah Unit) -->
+<div class="modal-overlay" id="admin-overlay">
+  <div class="modal-box wide">
+    <div class="modal-body">
+      <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px;">
+        <div>
+          <h2>⚙️ Kelola Unit Rental</h2>
+          <div class="meta-sub" style="margin-bottom: 0;">Panel pengelolaan ketersediaan, foto, dan unit baru</div>
+        </div>
+        <button type="button" class="modal-close-btn" id="admin-close-x" style="position: static; background: var(--slate-100); color: var(--slate-700);">✕</button>
+      </div>
+
+      <div class="admin-bar-tools">
+        <span style="font-size: 13px; font-weight: 700; color: var(--slate-600);" id="admin-count">13 Total Unit (13 Siap Sewa)</span>
+        <div style="display: flex; gap: 8px;">
+          <button type="button" class="chip-action" id="reset-units" style="background: var(--slate-100); color: var(--slate-700);">↺ Reset Data Awal</button>
+          <button type="button" class="chip-action" id="admin-logout" style="background: #fef2f2; color: #dc2626; border: 1px solid #fee2e2;">🚪 Logout</button>
+        </div>
+      </div>
+
+      <div class="admin-list-container" id="admin-list">
+    <div class="admin-unit-row" data-id="1">
+      <span class="emoji">🛵</span>
+      <div class="info">
+        <b>Honda Beat 2023</b>
+        <span>Rp 75.000/hari · 🟢 Siap</span>
+      </div>
+      <div class="actions">
+        <button type="button" class="chip-action toggle-ready" data-act="toggle">
+          Tandai Sewa
+        </button>
+        <button type="button" class="chip-action btn-photo" data-act="photo" title="Ganti/Tambah Foto">📷 +Foto</button>
+        
+        <button type="button" class="chip-action btn-del" data-act="del">Hapus</button>
+      </div>
+    </div>
+  
+    <div class="admin-unit-row" data-id="2">
+      <span class="emoji">🛵</span>
+      <div class="info">
+        <b>Honda Vario 160</b>
+        <span>Rp 100.000/hari · 🟢 Siap</span>
+      </div>
+      <div class="actions">
+        <button type="button" class="chip-action toggle-ready" data-act="toggle">
+          Tandai Sewa
+        </button>
+        <button type="button" class="chip-action btn-photo" data-act="photo" title="Ganti/Tambah Foto">📷 +Foto</button>
+        
+        <button type="button" class="chip-action btn-del" data-act="del">Hapus</button>
+      </div>
+    </div>
+  
+    <div class="admin-unit-row" data-id="3">
+      <span class="emoji">🏍️</span>
+      <div class="info">
+        <b>Yamaha NMAX 155</b>
+        <span>Rp 130.000/hari · 🟢 Siap</span>
+      </div>
+      <div class="actions">
+        <button type="button" class="chip-action toggle-ready" data-act="toggle">
+          Tandai Sewa
+        </button>
+        <button type="button" class="chip-action btn-photo" data-act="photo" title="Ganti/Tambah Foto">📷 +Foto</button>
+        
+        <button type="button" class="chip-action btn-del" data-act="del">Hapus</button>
+      </div>
+    </div>
+  
+    <div class="admin-unit-row" data-id="4">
+      <span class="emoji">🛵</span>
+      <div class="info">
+        <b>Honda Scoopy Stylish</b>
+        <span>Rp 80.000/hari · 🟢 Siap</span>
+      </div>
+      <div class="actions">
+        <button type="button" class="chip-action toggle-ready" data-act="toggle">
+          Tandai Sewa
+        </button>
+        <button type="button" class="chip-action btn-photo" data-act="photo" title="Ganti/Tambah Foto">📷 +Foto</button>
+        
+        <button type="button" class="chip-action btn-del" data-act="del">Hapus</button>
+      </div>
+    </div>
+  
+    <div class="admin-unit-row" data-id="5">
+      <span class="emoji">🏍️</span>
+      <div class="info">
+        <b>Honda PCX 160</b>
+        <span>Rp 150.000/hari · 🟢 Siap</span>
+      </div>
+      <div class="actions">
+        <button type="button" class="chip-action toggle-ready" data-act="toggle">
+          Tandai Sewa
+        </button>
+        <button type="button" class="chip-action btn-photo" data-act="photo" title="Ganti/Tambah Foto">📷 +Foto</button>
+        
+        <button type="button" class="chip-action btn-del" data-act="del">Hapus</button>
+      </div>
+    </div>
+  
+    <div class="admin-unit-row" data-id="6">
+      <span class="emoji">🏍️</span>
+      <div class="info">
+        <b>Kawasaki KLX 150</b>
+        <span>Rp 160.000/hari · 🟢 Siap</span>
+      </div>
+      <div class="actions">
+        <button type="button" class="chip-action toggle-ready" data-act="toggle">
+          Tandai Sewa
+        </button>
+        <button type="button" class="chip-action btn-photo" data-act="photo" title="Ganti/Tambah Foto">📷 +Foto</button>
+        
+        <button type="button" class="chip-action btn-del" data-act="del">Hapus</button>
+      </div>
+    </div>
+  
+    <div class="admin-unit-row" data-id="7">
+      <span class="emoji">📱</span>
+      <div class="info">
+        <b>iPhone 12</b>
+        <span>Rp 45.000/hari · 🟢 Siap</span>
+      </div>
+      <div class="actions">
+        <button type="button" class="chip-action toggle-ready" data-act="toggle">
+          Tandai Sewa
+        </button>
+        <button type="button" class="chip-action btn-photo" data-act="photo" title="Ganti/Tambah Foto">📷 +Foto</button>
+        
+        <button type="button" class="chip-action btn-del" data-act="del">Hapus</button>
+      </div>
+    </div>
+  
+    <div class="admin-unit-row" data-id="8">
+      <span class="emoji">📱</span>
+      <div class="info">
+        <b>iPhone 13</b>
+        <span>Rp 55.000/hari · 🟢 Siap</span>
+      </div>
+      <div class="actions">
+        <button type="button" class="chip-action toggle-ready" data-act="toggle">
+          Tandai Sewa
+        </button>
+        <button type="button" class="chip-action btn-photo" data-act="photo" title="Ganti/Tambah Foto">📷 +Foto</button>
+        
+        <button type="button" class="chip-action btn-del" data-act="del">Hapus</button>
+      </div>
+    </div>
+  
+    <div class="admin-unit-row" data-id="9">
+      <span class="emoji">📱</span>
+      <div class="info">
+        <b>iPhone 14 Pro</b>
+        <span>Rp 95.000/hari · 🟢 Siap</span>
+      </div>
+      <div class="actions">
+        <button type="button" class="chip-action toggle-ready" data-act="toggle">
+          Tandai Sewa
+        </button>
+        <button type="button" class="chip-action btn-photo" data-act="photo" title="Ganti/Tambah Foto">📷 +Foto</button>
+        
+        <button type="button" class="chip-action btn-del" data-act="del">Hapus</button>
+      </div>
+    </div>
+  
+    <div class="admin-unit-row" data-id="10">
+      <span class="emoji">📱</span>
+      <div class="info">
+        <b>iPhone 15</b>
+        <span>Rp 110.000/hari · 🟢 Siap</span>
+      </div>
+      <div class="actions">
+        <button type="button" class="chip-action toggle-ready" data-act="toggle">
+          Tandai Sewa
+        </button>
+        <button type="button" class="chip-action btn-photo" data-act="photo" title="Ganti/Tambah Foto">📷 +Foto</button>
+        
+        <button type="button" class="chip-action btn-del" data-act="del">Hapus</button>
+      </div>
+    </div>
+  
+    <div class="admin-unit-row" data-id="11">
+      <span class="emoji">📱</span>
+      <div class="info">
+        <b>iPhone 15 Pro</b>
+        <span>Rp 145.000/hari · 🟢 Siap</span>
+      </div>
+      <div class="actions">
+        <button type="button" class="chip-action toggle-ready" data-act="toggle">
+          Tandai Sewa
+        </button>
+        <button type="button" class="chip-action btn-photo" data-act="photo" title="Ganti/Tambah Foto">📷 +Foto</button>
+        
+        <button type="button" class="chip-action btn-del" data-act="del">Hapus</button>
+      </div>
+    </div>
+  
+    <div class="admin-unit-row" data-id="12">
+      <span class="emoji">📷</span>
+      <div class="info">
+        <b>Canon EOS M50 Mark II</b>
+        <span>Rp 120.000/hari · 🟢 Siap</span>
+      </div>
+      <div class="actions">
+        <button type="button" class="chip-action toggle-ready" data-act="toggle">
+          Tandai Sewa
+        </button>
+        <button type="button" class="chip-action btn-photo" data-act="photo" title="Ganti/Tambah Foto">📷 +Foto</button>
+        
+        <button type="button" class="chip-action btn-del" data-act="del">Hapus</button>
+      </div>
+    </div>
+  
+    <div class="admin-unit-row" data-id="13">
+      <span class="emoji">📷</span>
+      <div class="info">
+        <b>Sony Alpha a6400</b>
+        <span>Rp 150.000/hari · 🟢 Siap</span>
+      </div>
+      <div class="actions">
+        <button type="button" class="chip-action toggle-ready" data-act="toggle">
+          Tandai Sewa
+        </button>
+        <button type="button" class="chip-action btn-photo" data-act="photo" title="Ganti/Tambah Foto">📷 +Foto</button>
+        
+        <button type="button" class="chip-action btn-del" data-act="del">Hapus</button>
+      </div>
+    </div>
+  </div>
+
+      <h3 style="font-size: 15px; font-weight: 800; color: var(--slate-900); margin: 18px 0 12px;">➕ Tambah Unit Baru</h3>
+      <form id="add-form" novalidate="">
+        <div class="form-row-2">
+          <div class="form-group">
+            <label>Kategori <i>*</i></label>
+            <select id="a-cat">
+              <option value="motor">🏍️ Motor</option>
+              <option value="iphone">📱 iPhone</option>
+              <option value="kamera">📷 Kamera</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Emoji Unit</label>
+            <input type="text" id="a-emoji" placeholder="🛵 / 📱 / 📷" maxlength="4">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Nama Unit <i>*</i></label>
+          <input type="text" id="a-name" placeholder="Contoh: Honda Vario 160 / iPhone 15 Pro">
+        </div>
+
+        <div class="form-row-2">
+          <div class="form-group">
+            <label>Harga Sewa / Hari (Rp) <i>*</i></label>
+            <input type="number" id="a-price" min="0" step="1000" placeholder="100000" inputmode="numeric">
+          </div>
+          <div class="form-group">
+            <label>Minimal Sewa (Hari)</label>
+            <input type="number" id="a-min" min="1" step="1" value="1">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Spesifikasi Singkat</label>
+          <input type="text" id="a-spec" placeholder="Contoh: 160cc · Matic / 128GB · 5G">
+        </div>
+
+        <div class="form-group">
+          <label>Status Ketersediaan</label>
+          <select id="a-status">
+            <option value="ready">🟢 Siap Sewa</option>
+            <option value="rented">🟡 Sedang Disewa</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Deskripsi &amp; Fasilitas</label>
+          <textarea id="a-desc" rows="2" placeholder="Keterangan unit, kelengkapan helm/jas hujan/charger..."></textarea>
+        </div>
+
+        <label class="photo-picker-box" for="a-photo">
+          📷 <span>Upload Foto Unit (Opsional)<br><small style="font-weight: 500; color: var(--slate-500);">Otomatis dioptimalkan untuk hemat memori</small></span>
+          <img class="photo-preview-thumb" id="a-photo-prev" alt="Pratinjau foto">
+        </label>
+        <input type="file" id="a-photo" accept="image/*" hidden="">
+
+        <div class="form-alert danger" id="a-err" hidden=""></div>
+        <button type="submit" class="btn-primary">➕ Simpan &amp; Publikasikan Unit</button>
+        <button type="button" class="btn-secondary" id="admin-close">Tutup Panel</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 3: Detail Unit & Booking -->
+<div class="modal-overlay" id="overlay">
+  <div class="modal-box">
+    <div class="modal-header-thumb" id="m-thumb"><span>🛵</span><button type="button" class="modal-close-btn" id="m-close-top">✕</button></div>
+
+    <!-- Detail View -->
+    <div class="modal-body" id="view-detail">
+      <h2 id="m-name">Honda Beat 2023</h2>
+      <div class="meta-sub" id="m-cat">Motor · Kode Unit #1</div>
+
+      <div class="spec-grid-2">
+        <div class="spec-cell"><span>Harga Sewa</span><b id="m-price" style="color: var(--brand);">Rp 75.000 / hari</b></div>
+        <div class="spec-cell"><span>Status</span><b id="m-status">Siap Sewa</b></div>
+        <div class="spec-cell"><span>Spesifikasi</span><b id="m-spec1">110cc · Matic</b></div>
+        <div class="spec-cell"><span>Minimal Sewa</span><b id="m-min">1 hari</b></div>
+      </div>
+
+      <div class="desc-box" id="m-desc">Sangat irit bahan bakar, lincah untuk keliling kota. Termasuk fasilitas 2 helm SNI dan jas hujan.</div>
+
+      <button type="button" class="btn-primary" id="m-rent">
+        <span>📅</span> Lanjut Booking Sekarang
+      </button>
+      <button type="button" class="btn-secondary" id="m-close">Tutup</button>
+    </div>
+
+    <!-- Booking Form View -->
+    <div class="modal-body" id="view-book" hidden="">
+      <h2>Form Pemesanan Sewa</h2>
+      <div class="meta-sub" id="b-summary"></div>
+
+      <form id="book-form" novalidate="">
+        <div class="form-group">
+          <label>Nama Lengkap Anda <i>*</i></label>
+          <input type="text" id="b-name" placeholder="Nama pemesan sesuai KTP" autocomplete="name">
+        </div>
+
+        <div class="form-row-2">
+          <div class="form-group">
+            <label>Tanggal Ambil <i>*</i></label>
+            <input type="date" id="b-start">
+          </div>
+          <div class="form-group">
+            <label>Tanggal Kembali <i>*</i></label>
+            <input type="date" id="b-end">
+          </div>
+        </div>
+
+        <div class="calc-box">
+          <div class="item">
+            <span>Durasi Sewa</span>
+            <b id="b-days">—</b>
+          </div>
+          <div class="item" style="text-align: right;">
+            <span>Estimasi Total</span>
+            <b id="b-total">Rp0</b>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Catatan Tambahan (Opsional)</label>
+          <textarea id="b-note" rows="2" placeholder="Contoh: Butuh 2 helm ukuran L, antar ke Hotel Grand..."></textarea>
+        </div>
+
+        <div class="form-alert danger" id="b-err" hidden=""></div>
+
+        <button type="submit" class="btn-primary" style="background: #25d366; box-shadow: 0 8px 20px rgba(37, 211, 102, 0.35);">
+          <span>📲</span> Kirim Pemesanan ke WhatsApp
+        </button>
+        <button type="button" class="btn-secondary" id="b-back">← Kembali ke Detail Unit</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script>
+// ---- Kredensial Proteksi Admin ----
+const ADMIN_CREDENTIALS = {
+  user: "lepu24",
+  pass: "garena24"
+};
+
+const AUTH_KEY = "suci_admin_auth";
+function isAuth() {
+  return sessionStorage.getItem(AUTH_KEY) === "1";
+}
+function setAuth(status) {
+  if (status) sessionStorage.setItem(AUTH_KEY, "1");
+  else sessionStorage.removeItem(AUTH_KEY);
+}
+
+const DEFAULT_UNITS = [
+  // ---- Motor ----
+  { id: 1, cat: "motor", name: "Honda Beat 2023", emoji: "🛵", price: 75000, status: "ready", spec: "110cc · Matic", min: "1 hari",
+    desc: "Sangat irit bahan bakar, lincah untuk keliling kota. Termasuk fasilitas 2 helm SNI dan jas hujan." },
+  { id: 2, cat: "motor", name: "Honda Vario 160", emoji: "🛵", price: 100000, status: "ready", spec: "160cc · Matic ESP+", min: "1 hari",
+    desc: "Mesin bertenaga dan halus, bagasi luas muat helm, pijakan kaki nyaman untuk perjalanan jauh." },
+  { id: 3, cat: "motor", name: "Yamaha NMAX 155", emoji: "🏍️", price: 130000, status: "ready", spec: "155cc · Connected ABS", min: "1 hari",
+    desc: "Skuter touring premium dengan suspensi tabung nyaman, rem ABS, dan USB charger aktif." },
+  { id: 4, cat: "motor", name: "Honda Scoopy Stylish", emoji: "🛵", price: 80000, status: "ready", spec: "110cc · Smart Key", min: "1 hari",
+    desc: "Desain retro modern elegan, dilengkapi smart key system, favorit untuk hangout dan foto estetik." },
+  { id: 5, cat: "motor", name: "Honda PCX 160", emoji: "🏍️", price: 150000, status: "ready", spec: "160cc · Keyless", min: "1 hari",
+    desc: "Kenyamanan maksimal kelas premium, posisi berkendara rileks untuk keliling santai." },
+  { id: 6, cat: "motor", name: "Kawasaki KLX 150", emoji: "🏍️", price: 160000, status: "ready", spec: "150cc · Trail Adventure", min: "2 hari",
+    desc: "Motor trail serbaguna, tangguh di segala medan jalan berbukit dan pantai. Wajib SIM C aktif." },
+
+  // ---- iPhone ----
+  { id: 7, cat: "iphone", name: "iPhone 12", emoji: "📱", price: 45000, status: "ready", spec: "128GB · 5G · Oled XDR", min: "1 hari",
+    desc: "Kondisi unit mulus 99%, baterai sehat, kamera jernih untuk story dan reels harian. Free charger & case." },
+  { id: 8, cat: "iphone", name: "iPhone 13", emoji: "📱", price: 55000, status: "ready", spec: "128GB · Cinematic Mode", min: "1 hari",
+    desc: "Baterai awet tahan seharian, Cinematic Mode untuk video profesional. iCloud bersih siap pakai." },
+  { id: 9, cat: "iphone", name: "iPhone 14 Pro", emoji: "📱", price: 95000, status: "ready", spec: "256GB · Dynamic Island · 48MP", min: "2 hari",
+    desc: "Kamera 48MP dengan Dynamic Island dan layar 120Hz ProMotion. Pilihan nomor satu konten kreator." },
+  { id: 10, cat: "iphone", name: "iPhone 15", emoji: "📱", price: 110000, status: "ready", spec: "128GB · USB-C · 48MP", min: "2 hari",
+    desc: "Port USB-C modern praktis, bodi aluminium ringan, kamera tajam dengan warna cerah memukau." },
+  { id: 11, cat: "iphone", name: "iPhone 15 Pro", emoji: "📱", price: 145000, status: "ready", spec: "256GB · Titanium · Action Button", min: "3 hari",
+    desc: "Bodi titanium mewah dan kuat, performa chip A17 Pro super kencang untuk vlog dan event spesial." },
+
+  // ---- Kamera ----
+  { id: 12, cat: "kamera", name: "Canon EOS M50 Mark II", emoji: "📷", price: 120000, status: "ready", spec: "4K · Dual Pixel AF · Lensa Kit", min: "1 hari",
+    desc: "Kamera mirrorless favorit vlogger, autofocus mata cepat, layar putar, lengkap tas, strap, baterai & memori 64GB." },
+  { id: 13, cat: "kamera", name: "Sony Alpha a6400", emoji: "📷", price: 150000, status: "ready", spec: "24.2MP · Real-time AF · 4K HDR", min: "1 hari",
+    desc: "Sensor tajam warna alami, autofocus tercepat di kelasnya. Ideal untuk dokumentasi liburan dan foto estetik." }
+];
+
+// ---- LocalStorage ----
+const STORE_KEY = "suci-alif-units-v2";
+let UNITS;
+try {
+  const saved = JSON.parse(localStorage.getItem(STORE_KEY) || localStorage.getItem("suci-alif-units-v1") || "null");
+  UNITS = Array.isArray(saved) && saved.length ? saved : DEFAULT_UNITS.slice();
+} catch (e) {
+  UNITS = DEFAULT_UNITS.slice();
+}
+function saveUnits() {
+  try {
+    localStorage.setItem(STORE_KEY, JSON.stringify(UNITS));
+    return true;
+  } catch (e) {
+    return false;
+  }
+}
+
+function readImage(file, max = 640, quality = 0.75) {
+  return new Promise((resolve, reject) => {
+    if (!file) return resolve(null);
+    if (!file.type || !file.type.startsWith("image/")) return reject(new Error("File harus berupa gambar (JPG/PNG)."));
+    const reader = new FileReader();
+    reader.onerror = () => reject(new Error("Gagal membaca file gambar."));
+    reader.onload = () => {
+      const img = new Image();
+      img.onerror = () => reject(new Error("Gambar tidak dapat diproses."));
+      img.onload = () => {
+        let w = img.naturalWidth, h = img.naturalHeight;
+        const scale = Math.min(1, max / Math.max(w, h));
+        w = Math.max(1, Math.round(w * scale));
+        h = Math.max(1, Math.round(h * scale));
+        const c = document.createElement("canvas");
+        c.width = w; c.height = h;
+        c.getContext("2d").drawImage(img, 0, 0, w, h);
+        resolve(c.toDataURL("image/jpeg", quality));
+      };
+      img.src = reader.result;
+    };
+    reader.readAsDataURL(file);
+  });
+}
+
+const rupiah = n => "Rp " + Number(n).toLocaleString("id-ID");
+const CAT_LABEL = { motor: "Motor", iphone: "iPhone", kamera: "Kamera" };
+const STATUS_LABEL = { ready: "Siap Sewa", rented: "Sedang Disewa" };
+
+let filterCat = "all";
+let query = "";
+let sortMode = "default";
+
+const grid = document.getElementById("grid");
+
+function render() {
+  let list = UNITS.filter(u => filterCat === "all" || u.cat === filterCat);
+
+  if (query) {
+    const q = query.toLowerCase();
+    list = list.filter(u =>
+      u.name.toLowerCase().includes(q) ||
+      u.spec.toLowerCase().includes(q) ||
+      (CAT_LABEL[u.cat] && CAT_LABEL[u.cat].toLowerCase().includes(q))
+    );
+  }
+
+  if (sortMode === "asc") list.sort((a, b) => a.price - b.price);
+  else if (sortMode === "desc") list.sort((a, b) => b.price - a.price);
+  else if (sortMode === "name") list.sort((a, b) => a.name.localeCompare(b.name, "id"));
+
+  if (!list.length) {
+    grid.innerHTML = `
+      <div class="empty-state">
+        <span class="ico">🔍</span>
+        <h3 style="font-size:16px; font-weight:800; color:var(--slate-800); margin-bottom:4px;">Unit Tidak Ditemukan</h3>
+        <p style="font-size:13px; color:var(--slate-500);">Coba gunakan kata kunci lain atau pilih kategori Semua Unit.</p>
+      </div>`;
+    return;
+  }
+
+  grid.innerHTML = list.map(u => {
+    const isReady = u.status === "ready";
+    return `
+      <article class="unit-card" data-id="${u.id}">
+        <div class="unit-thumb ${u.cat}">
+          <span class="badge-status ${u.status}">${STATUS_LABEL[u.status]}</span>
+          <span class="unit-category-pill">${CAT_LABEL[u.cat] || u.cat}</span>
+          ${u.photo ? `<img src="${u.photo}" alt="${escapeHtml(u.name)}">` : `<span class="emoji-hero">${u.emoji}</span>`}
+        </div>
+        <div class="unit-content">
+          <h3 class="unit-title">${escapeHtml(u.name)}</h3>
+          <div class="unit-spec-tags">
+            ${u.spec.split("·").map(s => `<span class="spec-chip">${escapeHtml(s.trim())}</span>`).join("")}
+          </div>
+          <div class="unit-footer">
+            <div class="price-box">
+              <span>Mulai Dari</span>
+              <b>${rupiah(u.price)}</b><small> / hari</small>
+            </div>
+            <button type="button" class="btn-rent-card">
+              ${isReady ? "Sewa →" : "Detail"}
+            </button>
+          </div>
+        </div>
+      </article>
+    `;
+  }).join("");
+}
+
+function updateStats() {
+  document.getElementById("st-total").textContent = UNITS.length;
+  document.getElementById("st-ready").textContent = UNITS.filter(u => u.status === "ready").length;
+  document.getElementById("st-motor").textContent = UNITS.filter(u => u.cat === "motor").length;
+  document.getElementById("st-phone").textContent = UNITS.filter(u => u.cat === "iphone" || u.cat === "kamera").length;
+}
+
+// Search & Filter
+document.getElementById("q").addEventListener("input", e => { query = e.target.value.trim(); render(); });
+document.getElementById("sort").addEventListener("change", e => { sortMode = e.target.value; render(); });
+
+document.querySelectorAll(".filter-btn").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    filterCat = btn.dataset.cat;
+    render();
+  });
+});
+
+// Modal Detail & Booking
+const overlay = document.getElementById("overlay");
+const viewDetail = document.getElementById("view-detail");
+const viewBook = document.getElementById("view-book");
+const WA_NUMBER = "6287748853767";
+let currentUnit = null;
+
+function showView(v) {
+  viewDetail.hidden = v !== "detail";
+  viewBook.hidden = v !== "book";
+  overlay.querySelector(".modal-box").scrollTop = 0;
+}
+
+grid.addEventListener("click", e => {
+  const card = e.target.closest(".unit-card");
+  if (!card) return;
+  const u = UNITS.find(x => x.id === Number(card.dataset.id));
+  if (!u) return;
+  currentUnit = u;
+
+  const thumb = document.getElementById("m-thumb");
+  thumb.innerHTML = (u.photo ? `<img src="${u.photo}" alt="${escapeHtml(u.name)}">` : `<span>${u.emoji}</span>`) +
+    '<button type="button" class="modal-close-btn" id="m-close-top">✕</button>';
+  document.getElementById("m-close-top").addEventListener("click", closeModal);
+
+  document.getElementById("m-name").textContent = u.name;
+  document.getElementById("m-cat").textContent = `${CAT_LABEL[u.cat] || u.cat} · Kode Unit #${u.id}`;
+  document.getElementById("m-price").textContent = rupiah(u.price) + " / hari";
+  document.getElementById("m-status").textContent = STATUS_LABEL[u.status];
+  document.getElementById("m-spec1").textContent = u.spec;
+  document.getElementById("m-min").textContent = u.min;
+  document.getElementById("m-desc").textContent = u.desc;
+
+  showView("detail");
+  overlay.classList.add("show");
+  document.body.style.overflow = "hidden";
+});
+
+function closeModal() {
+  overlay.classList.remove("show");
+  document.body.style.overflow = "";
+  showView("detail");
+}
+document.getElementById("m-close").addEventListener("click", closeModal);
+overlay.addEventListener("click", e => { if (e.target === overlay) closeModal(); });
+
+// Booking
+const bStart = document.getElementById("b-start");
+const bEnd = document.getElementById("b-end");
+const bDays = document.getElementById("b-days");
+const bTotal = document.getElementById("b-total");
+const bErr = document.getElementById("b-err");
+
+const toISO = d => {
+  const p = n => String(n).padStart(2, "0");
+  return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}`;
+};
+const fmtDate = iso => {
+  const [y, m, d] = iso.split("-").map(Number);
+  return new Date(y, m - 1, d).toLocaleDateString("id-ID", { day: "numeric", month: "long", year: "numeric" });
+};
+
+function calcDuration() {
+  if (!currentUnit || !bStart.value || !bEnd.value) return 0;
+  const s = new Date(bStart.value + "T00:00:00");
+  const e = new Date(bEnd.value + "T00:00:00");
+  const diff = Math.round((e - s) / 86400000);
+  if (diff < 0) return -1;
+  return Math.max(1, diff);
+}
+
+function updateTotal() {
+  const days = calcDuration();
+  if (days <= 0) { bDays.textContent = "—"; bTotal.textContent = "Rp0"; return days; }
+  bDays.textContent = `${days} hari`;
+  bTotal.textContent = rupiah(days * currentUnit.price);
+  return days;
+}
+
+document.getElementById("m-rent").addEventListener("click", () => {
+  if (!currentUnit) return;
+  const today = new Date();
+  const tomorrow = new Date(today.getTime() + 86400000);
+  bStart.min = toISO(today);
+  bEnd.min = toISO(today);
+  if (!bStart.value) bStart.value = toISO(today);
+  if (!bEnd.value) bEnd.value = toISO(tomorrow);
+
+  const u = currentUnit;
+  document.getElementById("b-summary").textContent =
+    `${u.emoji} ${u.name} · ${rupiah(u.price)}/hari · minimal sewa ${u.min}`;
+  document.getElementById("b-note").value = "";
+  bErr.hidden = true;
+  updateTotal();
+  showView("book");
+});
+
+document.getElementById("b-back").addEventListener("click", () => showView("detail"));
+bStart.addEventListener("change", () => {
+  if (bEnd.value && bEnd.value < bStart.value) bEnd.value = bStart.value;
+  bEnd.min = bStart.value || bEnd.min;
+  updateTotal();
+});
+bEnd.addEventListener("change", updateTotal);
+
+document.getElementById("book-form").addEventListener("submit", e => {
+  e.preventDefault();
+  const u = currentUnit;
+  if (!u) return;
+
+  const name = document.getElementById("b-name").value.trim();
+  const note = document.getElementById("b-note").value.trim();
+  const days = calcDuration();
+
+  if (!name) {
+    bErr.textContent = "Nama lengkap pemesan wajib diisi.";
+    bErr.hidden = false;
+    return;
+  }
+  if (!bStart.value || !bEnd.value || days <= 0) {
+    bErr.textContent = "Tanggal sewa tidak valid.";
+    bErr.hidden = false;
+    return;
+  }
+  const minDays = parseInt(u.min, 10) || 1;
+  if (days < minDays) {
+    bErr.textContent = `Minimal sewa unit ini adalah ${u.min}.`;
+    bErr.hidden = false;
+    return;
+  }
+  bErr.hidden = true;
+
+  const total = days * u.price;
+  const lines = [
+    "Halo *Rental Suci Alif*! Saya ingin booking unit:",
+    "",
+    `🛵 *Unit:* ${u.emoji} ${u.name} (${CAT_LABEL[u.cat] || u.cat})`,
+    `💰 *Harga:* ${rupiah(u.price)} / hari`,
+    `📅 *Tanggal Ambil:* ${fmtDate(bStart.value)}`,
+    `📅 *Tanggal Kembali:* ${fmtDate(bEnd.value)}`,
+    `⏱️ *Durasi:* ${days} hari`,
+    `💵 *Total Estimasi:* *${rupiah(total)}*`,
+    "",
+    `👤 *Nama Pemesan:* ${name}`,
+  ];
+  if (note) lines.push(`📝 *Catatan:* ${note}`);
+  lines.push("", "Lokasi: Depan Mesjid Agung", "Mohon konfirmasi ketersediaan unitnya. Terima kasih!");
+
+  const url = `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(lines.join("\n"))}`;
+  window.open(url, "_blank");
+});
+
+// ---- Proteksi Login Admin ----
+const escapeHtml = s => String(s).replace(/[&<>"']/g, c =>
+  ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+const loginOverlay = document.getElementById("login-overlay");
+const loginForm = document.getElementById("login-form");
+const loginUser = document.getElementById("l-user");
+const loginPass = document.getElementById("l-pass");
+const loginErr = document.getElementById("l-err");
+const togglePassBtn = document.getElementById("toggle-pass");
+
+const adminOverlay = document.getElementById("admin-overlay");
+const adminList = document.getElementById("admin-list");
+
+let onAuthSuccess = null;
+
+function promptAdminLogin(callback) {
+  if (isAuth()) {
+    if (typeof callback === "function") callback();
+    return;
+  }
+  onAuthSuccess = callback;
+  loginUser.value = "";
+  loginPass.value = "";
+  loginErr.hidden = true;
+  loginOverlay.classList.add("show");
+  document.body.style.overflow = "hidden";
+  setTimeout(() => loginUser.focus(), 250);
+}
+
+function closeLogin() {
+  loginOverlay.classList.remove("show");
+  if (!adminOverlay.classList.contains("show") && !overlay.classList.contains("show")) {
+    document.body.style.overflow = "";
+  }
+  onAuthSuccess = null;
+}
+
+document.getElementById("login-close").addEventListener("click", closeLogin);
+loginOverlay.addEventListener("click", e => { if (e.target === loginOverlay) closeLogin(); });
+
+togglePassBtn.addEventListener("click", () => {
+  const isPwd = loginPass.type === "password";
+  loginPass.type = isPwd ? "text" : "password";
+  togglePassBtn.textContent = isPwd ? "🙈" : "👁️";
+});
+
+loginForm.addEventListener("submit", e => {
+  e.preventDefault();
+  const u = loginUser.value.trim();
+  const p = loginPass.value;
+
+  if (!u || !p) {
+    loginErr.textContent = "Username dan password wajib diisi!";
+    loginErr.hidden = false;
+    return;
+  }
+
+  if (u === ADMIN_CREDENTIALS.user && p === ADMIN_CREDENTIALS.pass) {
+    setAuth(true);
+    loginErr.hidden = true;
+    closeLogin();
+    if (typeof onAuthSuccess === "function") {
+      onAuthSuccess();
+    }
+  } else {
+    loginErr.textContent = "Username atau password salah! Akses ditolak.";
+    loginErr.hidden = false;
+    loginPass.value = "";
+    loginPass.focus();
+  }
+});
+
+// Logout Admin
+document.getElementById("admin-logout").addEventListener("click", () => {
+  if (confirm("Keluar dari mode admin? Panel akan dikunci kembali.")) {
+    setAuth(false);
+    adminOverlay.classList.remove("show");
+    document.body.style.overflow = "";
+  }
+});
+
+// Render Admin List
+function renderAdmin() {
+  const ready = UNITS.filter(u => u.status === "ready").length;
+  document.getElementById("admin-count").textContent = `${UNITS.length} Total Unit (${ready} Siap Sewa)`;
+
+  if (!UNITS.length) {
+    adminList.innerHTML = '<div style="text-align:center; padding:16px; color:var(--slate-400); font-size:13px;">Belum ada unit. Tambahkan di form bawah.</div>';
+    return;
+  }
+
+  adminList.innerHTML = UNITS.map(u => `
+    <div class="admin-unit-row" data-id="${u.id}">
+      <span class="emoji">${u.emoji}</span>
+      <div class="info">
+        <b>${escapeHtml(u.name)}</b>
+        <span>${rupiah(u.price)}/hari · ${u.status === "ready" ? "🟢 Siap" : "🟡 Disewa"}</span>
+      </div>
+      <div class="actions">
+        <button type="button" class="chip-action ${u.status === "ready" ? "toggle-ready" : "toggle-rented"}" data-act="toggle">
+          ${u.status === "ready" ? "Tandai Sewa" : "Kembalikan"}
+        </button>
+        <button type="button" class="chip-action btn-photo" data-act="photo" title="Ganti/Tambah Foto">${u.photo ? "🖼️ Foto" : "📷 +Foto"}</button>
+        ${u.photo ? '<button type="button" class="chip-action btn-rmphoto" data-act="rmphoto" title="Hapus Foto">✕</button>' : ""}
+        <button type="button" class="chip-action btn-del" data-act="del">Hapus</button>
+      </div>
+    </div>
+  `).join("");
+}
+
+function refreshAll() {
+  saveUnits();
+  render();
+  updateStats();
+  renderAdmin();
+}
+
+adminList.addEventListener("click", e => {
+  if (!isAuth()) { promptAdminLogin(); return; }
+  const btn = e.target.closest("[data-act]");
+  if (!btn) return;
+  const row = btn.closest(".admin-unit-row");
+  const id = Number(row.dataset.id);
+  const u = UNITS.find(x => x.id === id);
+  if (!u) return;
+
+  if (btn.dataset.act === "toggle") {
+    u.status = u.status === "ready" ? "rented" : "ready";
+    refreshAll();
+  } else if (btn.dataset.act === "del") {
+    if (!confirm(`Hapus unit "${u.name}" dari katalog?`)) return;
+    UNITS = UNITS.filter(x => x.id !== id);
+    if (currentUnit && currentUnit.id === id) currentUnit = null;
+    refreshAll();
+  } else if (btn.dataset.act === "photo") {
+    pendingPhotoId = id;
+    const inp = document.getElementById("photo-input");
+    inp.value = "";
+    inp.click();
+  } else if (btn.dataset.act === "rmphoto") {
+    delete u.photo;
+    refreshAll();
+  }
+});
+
+let pendingPhotoId = null;
+document.getElementById("photo-input").addEventListener("change", async e => {
+  if (!isAuth()) { promptAdminLogin(); return; }
+  const file = e.target.files && e.target.files[0];
+  const u = UNITS.find(x => x.id === pendingPhotoId);
+  if (!file || !u) return;
+  try {
+    const dataUrl = await readImage(file);
+    const old = u.photo;
+    u.photo = dataUrl;
+    if (!saveUnits()) {
+      u.photo = old;
+      alert("Memori penyimpanan browser penuh.");
+      return;
+    }
+    refreshAll();
+  } catch (err) {
+    alert(err.message || "Gagal memuat foto.");
+  } finally {
+    pendingPhotoId = null;
+    e.target.value = "";
+  }
+});
+
+let pendingNewPhoto = null;
+document.getElementById("a-photo").addEventListener("change", async e => {
+  const file = e.target.files && e.target.files[0];
+  const prev = document.getElementById("a-photo-prev");
+  if (!file) { pendingNewPhoto = null; prev.classList.remove("show"); return; }
+  try {
+    pendingNewPhoto = await readImage(file);
+    prev.src = pendingNewPhoto;
+    prev.classList.add("show");
+  } catch (err) {
+    alert(err.message || "Gagal memuat foto.");
+    pendingNewPhoto = null;
+    prev.classList.remove("show");
+  }
+});
+
+document.getElementById("add-form").addEventListener("submit", e => {
+  e.preventDefault();
+  if (!isAuth()) { promptAdminLogin(); return; }
+
+  const cat = document.getElementById("a-cat").value;
+  const name = document.getElementById("a-name").value.trim();
+  const price = Number(document.getElementById("a-price").value);
+  const spec = document.getElementById("a-spec").value.trim();
+  const min = Math.max(1, Number(document.getElementById("a-min").value) || 1);
+  const status = document.getElementById("a-status").value;
+  const desc = document.getElementById("a-desc").value.trim();
+  const emojiInput = document.getElementById("a-emoji").value.trim();
+  const err = document.getElementById("a-err");
+
+  if (!name || !price || price <= 0) {
+    err.textContent = "Nama unit dan harga sewa wajib diisi dengan benar.";
+    err.hidden = false;
+    return;
+  }
+  err.hidden = true;
+
+  const defaultEmoji = cat === "motor" ? "🛵" : (cat === "iphone" ? "📱" : "📷");
+  const nextId = UNITS.reduce((m, u) => Math.max(m, u.id), 0) + 1;
+
+  const newUnit = {
+    id: nextId,
+    cat,
+    name,
+    emoji: emojiInput || defaultEmoji,
+    price,
+    status,
+    spec: spec || (cat === "motor" ? "Motor Prima" : "Unit Terawat"),
+    min: min + " hari",
+    desc: desc || "Unit baru ditambahkan oleh admin Rental Suci Alif.",
+  };
+  if (pendingNewPhoto) newUnit.photo = pendingNewPhoto;
+
+  UNITS.push(newUnit);
+  if (!saveUnits()) {
+    UNITS.pop();
+    err.textContent = "Penyimpanan browser penuh. Coba tanpa foto.";
+    err.hidden = false;
+    return;
+  }
+
+  e.target.reset();
+  document.getElementById("a-min").value = 1;
+  pendingNewPhoto = null;
+  document.getElementById("a-photo-prev").classList.remove("show");
+  refreshAll();
+  adminList.scrollTop = adminList.scrollHeight;
+  alert(`Unit "${name}" berhasil ditambahkan!`);
+});
+
+document.getElementById("reset-units").addEventListener("click", () => {
+  if (!isAuth()) { promptAdminLogin(); return; }
+  if (!confirm("Kembalikan seluruh daftar unit ke data default?")) return;
+  UNITS = DEFAULT_UNITS.slice();
+  currentUnit = null;
+  refreshAll();
+});
+
+// Admin overlay openers
+document.getElementById("open-admin").addEventListener("click", () => {
+  promptAdminLogin(() => {
+    renderAdmin();
+    adminOverlay.classList.add("show");
+    document.body.style.overflow = "hidden";
+  });
+});
+
+document.getElementById("fab-add").addEventListener("click", () => {
+  promptAdminLogin(() => {
+    renderAdmin();
+    adminOverlay.classList.add("show");
+    document.body.style.overflow = "hidden";
+    document.getElementById("add-form").scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+});
+
+function closeAdminModal() {
+  adminOverlay.classList.remove("show");
+  document.body.style.overflow = "";
+}
+document.getElementById("admin-close").addEventListener("click", closeAdminModal);
+document.getElementById("admin-close-x").addEventListener("click", closeAdminModal);
+adminOverlay.addEventListener("click", e => { if (e.target === adminOverlay) closeAdminModal(); });
+
+// Keyboard shortcuts
+document.addEventListener("keydown", e => {
+  if (e.key === "Escape") {
+    if (loginOverlay.classList.contains("show")) closeLogin();
+    else if (adminOverlay.classList.contains("show")) closeAdminModal();
+    else if (overlay.classList.contains("show")) closeModal();
+  }
+});
+
+// Initial render
+updateStats();
+render();
+</script>
+
+
+</body></html>
